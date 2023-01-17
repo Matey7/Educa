@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background: #8e44ad;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.flexx{
+    text-align: center;
+    justify-content: center;
+}
+
+.tekst{
+
+    font-family: "Sora", sans-serif;
+    font-weight: 900;!important;
+    text-align: center;
+    font-size: 36px;
+    color: #4f163d;
+    margin-top: 100px;
+
+}
+.tekst1{
+    font-family: "Sora", sans-serif;
+    font-weight: 900;!important;
+    text-align: center;
+    font-size: 50px;
+    color: #EE1D99;
+
+
+}
+
+#btn{
+
+    border-radius: 12px;
+    color: #C266CE;
+    font-size:36px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to right, #8e44ad, #ec008c);
+    padding:10px 5px;
+
+
+
+}
+#btn:hover{
+
+    color: #111;
+}
+
+.footer{
+
+    text-align: center;
+    font-size: 15px;
+    margin-top: 200px;
+
+    color:var(--black);
+    z-index: 1000;
+}
+
+.ime{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #cc68ac;
+}

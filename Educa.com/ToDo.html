@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TodoList</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style4.css" />
+
+  <!-------- Favicon ------->
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+
+  <section class="flex">
+
+    <a href="home.html" class="logo">Educa.</a>
+
+    <form action="search.html" method="post" class="search-form">
+      <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+      <button type="submit" class="fas fa-search"></button>
+    </form>
+
+    <div class="icons">
+      <a href="calc.html"> <div id="men-btn" class="fas fa-calculator"></div> </a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="user-btn" class="fas fa-user"></div>
+      <div id="toggle-btn" class="fas fa-sun"></div>
+    </div>
+
+    <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Alex Brown</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+      <div class="flex-btn">
+        <a href="login.html" class="option-btn">login</a>
+        <a href="register.html" class="option-btn">register</a>
+      </div>
+    </div>
+
+  </section>
+
+</header>
+
+<div class="side-bar">
+
+  <div id="close-btn">
+    <i class="fas fa-times"></i>
+  </div>
+
+  <div class="profile">
+    <img src="images/pic-1.jpg" class="image" alt="">
+    <h3 class="name">Alex Brown</h3>
+    <p class="role">Student</p>
+    <a href="profile.html" class="btn">View Profile</a>
+  </div>
+
+  <nav class="navbar">
+    <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+    <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+    <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Reachers</span></a>
+    <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+    <a href="ToDo.html"><i class="fas fa-rectangle-list"></i><span>To-do List</span></a>
+  </nav>
+
+</div>
+
+<form class="form1">
+  <div>
+    <input type="text" class="todo-input" placeholder="Add Task"/>
+    <button class="todo-button" type="submit">
+      <i class="fas fa-plus-square"></i>
+    </button>
+  </div>
+  <div class="filterOptions">
+    <div>
+      <label >All</label>
+      <input type="radio" name="filter" value="all" class="allOption" checked />
+    </div>
+    <div>
+      <label>Completed</label>
+      <input type="radio" name="filter" value="completed" class="completedOption" />
+    </div>
+    <div>
+      <label>Uncompleted</label>
+      <input type="radio" name="filter" value="uncompleted" class="uncompletedOption" />
+    </div>
+  </div>
+</form>
+<div class="todo-container">
+  <ul class="todo-list"></ul>
+</div>
+
+<script src="js/script2.js"></script>
+</body>
+
+</html>
